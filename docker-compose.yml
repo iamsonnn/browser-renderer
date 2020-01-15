@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  browser-renderer:
+    image: 112.137.131.10:5000/browser-renderer:latest
+    restart: always
+    ports:
+      - 2769:3000
